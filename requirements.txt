@@ -1,0 +1,17 @@
+# Core application (Python 3.12+)
+PySide6>=6.6
+PyMuPDF>=1.24
+opencv-python-headless>=4.9
+Pillow>=10.0
+numpy>=1.26
+pytesseract>=0.3.10
+
+# High-accuracy English OCR (optional but recommended; see README "OCR setup")
+paddleocr>=3.0
+paddlepaddle>=3.0
+
+# Building the Windows executable
+pyinstaller>=6.5
+
+# Tests
+pytest>=8.0
